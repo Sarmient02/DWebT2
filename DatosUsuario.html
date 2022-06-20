@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de Usuario</title>
+</head>
+<body>
+    <h2>Rellena tu CV</h2>
+    <div class="Formulario">
+        <form>
+            <div class="datos">
+                <span>Nombre</span> <br>
+                <input type="text" name="nombre">
+                <br>
+                <span>Apellidos</span> <br>
+                <input type="text" name="apellidos">
+                <br>
+                <span>Contraseña</span> <br>
+                <input type="password" name="contraseña">
+                <br>
+                <span>Confirmar Contraseña</span> <br>
+                <input type="password" name="confirmar">
+                <br>
+                <span>Identificación</span> <br>
+                <select>
+                    <option value="TI">TI</option>
+                    <option value="CC">CC</option>
+                </select>
+                <input type="text" name="identificacion">
+                <br>
+                <span>Sexo</span>
+                <br>
+                <input type="radio">Hombre
+                <br>
+                <input type="radio">Mujer
+                <br>
+                <br>
+                <div class="subir_archivo">
+                    <span>Incluir mi foto</span> <br>
+                    <input type="file" name="foto">
+                </div>
+                <br>
+                <input type="checkbox"> Estudiante...
+                <br>
+                <br>
+            </div>
+            <div class="datos_personales">
+                <fieldset style="width: 600px;">
+                    <legend>Datos Personales</legend>
+                    <span>Departamento</span> <br>
+                    <select>
+                        <option>- selecciona -</option>
+                    </select>
+                    <br> <br>
+                    <span>Fecha de nacimiento</span>
+                    <br>
+                    <input type="text">
+                    <span> de </span>
+                    <select>
+                        <option>Enero</option>
+                        <option>Febrero</option>
+                        <option>Marzo</option>
+                        <option>Abril</option>
+                        <option>Mayo</option>
+                        <option>Junio</option>
+                        <option>Julio</option>
+                        <option>Agosto</option>
+                        <option>Septiembre</option>
+                        <option>Octubre</option>
+                        <option>Noviembre</option>
+                        <option>Diciembre</option>
+                    </select>
+                    <span> de </span>
+                    <input type="text">
+                    <br><br>
+                    <span>Temas de interés</span>
+                    <div style = "width: 300px; height: 100px; line-height: 2px; overflow-y:scroll; border: thin #000 solid;">
+                        <p>Administración de base de datos</p>
+                        <p>Análisis y programación</p>
+                        <p>Arquitectura</p>
+                        <p>Calidad</p>
+                        <p>ERP, CRM, Business Intelligence</p>
+                    </div>
+                </fieldset>
+            </div>
+            <button>Guardar cambios</button>
+            <button>Borrar todos los datos introducidos</button>
+        </form>
+    </div>
+</body>
+</html>
